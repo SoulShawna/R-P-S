@@ -1,0 +1,23 @@
+
+	h1 {
+		/*Can change*/
+		font-size:100px;
+		color:#f299ac;
+	}
+
+	p{
+		color:black;
+        font-size:1000px;
+        font-family: sans-serif;
+        text-align: center;
+        
+	}
+
+	body {
+/*Background*/
+		background-image: url("https://s-media-cache-ak0.pinimg.com/236x/b6/c8/ab/b6c8ab642d20ce6d4aedba10a6d3ddc1.jpg");
+		top repeat-y;
+		background-size: 1090px;
+	}
+	
+
