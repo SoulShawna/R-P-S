@@ -1,5 +1,5 @@
 function computerThink(){
-  computerChoice = Math.floor(Math.Random()*3);
+  computerChoice = Math.floor(Math.random()*3);
   if (computerChoice === 1){
     computerChoice = "rock";
   }
