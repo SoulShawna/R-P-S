@@ -32,3 +32,18 @@ function results(){
   alert("Computer choose" + ComputerChoice);
   compare(userChoice, computerChoice);
 }
+
+function compare(choice1,choice2){
+  if (choice1 === choice2){
+    alert("It's a tie!");
+  }
+  else if(choice1 === rock){
+    if(choice2 === "scissors") {
+  alert("You win!!");
+}
+    else {
+      alert("You lose");
+    }
+  }
+
+}
