@@ -45,5 +45,13 @@ function compare(choice1,choice2){
       alert("You lose");
     }
   }
+  else if (choice1 === paper){
+    if (choice2 === rock){
+      alert("You win!!");
+    }
+    else {
+      alert("You lose");
+    }
+  }
 
 }
