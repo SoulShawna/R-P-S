@@ -6,11 +6,11 @@
 	}
 
 	p{
-		color:black;
+		color:orange;
         font-size:1000px;
         font-family: sans-serif;
         text-align: center;
-        
+
 	}
 
 	body {
@@ -19,5 +19,5 @@
 		top repeat-y;
 		background-size: 1090px;
 	}
-	
+
 
