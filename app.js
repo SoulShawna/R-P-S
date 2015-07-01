@@ -10,28 +10,33 @@ function computerThink(){
   else if (computerChoice === 3){
     computerChoice = "scissors";
   }
+  return;
 }
 var userChoice = '';
 function rockPick(){
   userChoice = "rock";
   computerThink();
   results();
+  return;
 }
 function paperPick(){
   userChoice = "paper";
   computerThink();
   results();
+  return;
 }
 function scissorsPick(){
   userChoice = "scissors";
   computerThink();
   results();
+  return;
 }
 
 function results(){
   alert("You choose" + userChoice);
   alert("Computer choose" + ComputerChoice);
   compare(userChoice, computerChoice);
+  return;
 }
 
 function compare(userChoice,computerChoice){
@@ -45,6 +50,7 @@ function compare(userChoice,computerChoice){
     else {
       alert("You lose");
     }
+    return;
   }
   else if (userChoice === paper){
     if (computerChoice === rock){
@@ -53,6 +59,7 @@ function compare(userChoice,computerChoice){
     else {
       alert("You lose");
     }
+    return;
   }
   else if(userChoice === scissors){
     if (computerChoice === paper){
@@ -61,5 +68,6 @@ function compare(userChoice,computerChoice){
     else {
       alert("You lose");
     }
+    return;
   }
 }
