@@ -1,32 +1,23 @@
 
 	h1 {
 		/*Can change*/
-<<<<<<< HEAD
+
 		color:black;
-		font-size:40px;
-		
-=======
+
 		font-size:100px;
-		color:#f299ac;
+		
 	}
 
-	p{
-		color:orange;
-        font-size:1000px;
-        font-family: sans-serif;
-        text-align: center;
-
->>>>>>> origin/master
 	}
 	
 	button{
-		image
+		/*image*/
 	}
 
 
 	body {
 /*Background*/
-<<<<<<< HEAD
+
 		color:white;
         font-size:100px;
         font-family: sans-serif;
@@ -34,15 +25,14 @@
 		background-image: url("https://s-media-cache-ak0.pinimg.com/236x/b6/c8/ab/b6c8ab642d20ce6d4aedba10a6d3ddc1.jpg");
 		
 		background-size: 2090px;
-=======
-		background-image: url("http://img00.deviantart.net/ed64/i/2011/157/6/e/kawaii_paper_scissor_rock_by_bojo_bijoux-d3i6nvh.jpg");
-		top repeat-y;
-		background-size: 1090px;
->>>>>>> origin/master
+
+		
+		
+
 	}
   p.title {
-    color:orange;
-        font-size:1000px;
+    color:black;
+        font-size:100px;
         font-family: sans-serif;
         text-align: center;
   }
