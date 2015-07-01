@@ -1,27 +1,14 @@
-
-	h1 {
+h1 {
 		/*Can change*/
 
 		color:black;
 
-
-		font-size:70px;
-		color:#f299ac;
-	}
-
-	p{
-		color:orange;
-        font-size:1000px;
-        font-family: sans-serif;
-        text-align: center;
-
-
-
 		font-size:100px;
-
-
+		
 	}
 
+	}
+	
 	button{
 		/*image*/
 	}
@@ -35,12 +22,11 @@
         font-family: sans-serif;
         text-align: center;
 		background-image: url("https://s-media-cache-ak0.pinimg.com/236x/b6/c8/ab/b6c8ab642d20ce6d4aedba10a6d3ddc1.jpg");
-
+		
 		background-size: 2090px;
 
-
-
-
+		
+		
 
 	}
   p.title {
@@ -49,9 +35,3 @@
         font-family: sans-serif;
         text-align: center;
   }
-
-
-
-
-
-
