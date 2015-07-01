@@ -1,3 +1,4 @@
+var computerChoice = '';
 function computerThink(){
   computerChoice = Math.floor(Math.random()*3);
   if (computerChoice === 1){
@@ -10,19 +11,19 @@ function computerThink(){
     computerChoice = "scissors";
   }
 }
-
+var userChoice = '';
 function rockPick(){
-  choice1 = "rock";
+  userChoice = "rock";
   computerThink();
   results();
 }
 function paperPick(){
-  choice1 = "paper";
+  userChoice = "paper";
   computerThink();
   results();
 }
 function scissorsPick(){
-  choice1 = "scissors";
+  userChoice = "scissors";
   computerThink();
   results();
 }
@@ -33,25 +34,32 @@ function results(){
   compare(userChoice, computerChoice);
 }
 
-function compare(choice1,choice2){
-  if (choice1 === choice2){
+function compare(userChoice,computerChoice){
+  if (userChoice === computerChoice){
     alert("It's a tie!");
   }
-  else if(choice1 === rock){
-    if(choice2 === "scissors") {
+  else if(userChoice === rock){
+    if(computerChoice === "scissors") {
   alert("You win!!");
 }
     else {
       alert("You lose");
     }
   }
-  else if (choice1 === paper){
-    if (choice2 === rock){
+  else if (userChoice === paper){
+    if (computerChoice === rock){
       alert("You win!!");
     }
     else {
       alert("You lose");
     }
   }
-
+  else if(userChoice === scissors){
+    if (computerChoice === paper){
+      alert("You win!!");
+    }
+    else {
+      alert("You lose");
+    }
+  }
 }
