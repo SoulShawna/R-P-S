@@ -12,17 +12,17 @@ function computerThink(){
 }
 
 function rockPick(){
-  userChoice = "rock";
+  choice1 = "rock";
   computerThink();
   results();
 }
 function paperPick(){
-  userChoice = "paper";
+  choice1 = "paper";
   computerThink();
   results();
 }
 function scissorsPick(){
-  userChoice = "scissors";
+  choice1 = "scissors";
   computerThink();
   results();
 }
