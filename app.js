@@ -1,4 +1,3 @@
-var computerChoice = '';
 function computerThink(){
   computerChoice = Math.floor(Math.random()*3);
   if (computerChoice === 1){
