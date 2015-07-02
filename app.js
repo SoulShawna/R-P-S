@@ -33,8 +33,7 @@ function scissorsPick(){
 }
 
 function results(){
-  alert("You choose " + userChoice);
-  alert("Computer choose " + ComputerChoice);
+  alert("You choose " + userChoice + "And computer chose " + computerChoice);
   compare(userChoice, computerChoice);
   return;
 }
