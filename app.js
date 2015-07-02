@@ -12,6 +12,7 @@ function computerThink(){
   return;
 }
 var userChoice = '';
+
 function rockPick(){
   userChoice = "rock";
   computerThink();
@@ -32,8 +33,8 @@ function scissorsPick(){
 }
 
 function results(){
-  alert("You choose" + userChoice);
-  alert("Computer choose" + ComputerChoice);
+  alert("You choose " + userChoice);
+  alert("Computer choose " + ComputerChoice);
   compare(userChoice, computerChoice);
   return;
 }
