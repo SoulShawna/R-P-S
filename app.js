@@ -14,10 +14,12 @@ function computerThink(){
 var userChoice = '';
 
 function rockPick(){
+  document.getElementByID("rock").onclick = function() {
   userChoice = "rock";
   computerThink();
   results();
   return;
+};
 }
 function paperPick(){
   userChoice = "paper";
